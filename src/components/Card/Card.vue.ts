@@ -10,6 +10,7 @@ export default class Card extends Vue {
     @Prop() private alignItems = "";
     @Prop() private class = "";
     @Prop() private style = "";
+    @Prop() private stripColor = "";
 
     private get itemsAlign(): string {
         return Utils.isStringEmpty(this.alignItems) ? "" : `items-${this.alignItems}`;

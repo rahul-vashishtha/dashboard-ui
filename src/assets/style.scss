@@ -50,7 +50,8 @@ body {
 }
 
 .card {
-  @apply flex p-10 mx-auto bg-white rounded-lg shadow-lg;
+  @apply flex px-10 py-5 mx-auto bg-white rounded-lg shadow-lg;
+  transform-style: preserve-3d;
 }
 
 .grid-container {
