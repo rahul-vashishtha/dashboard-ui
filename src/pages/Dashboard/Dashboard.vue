@@ -1,7 +1,13 @@
 <template>
   <div>
-    <div>
+    <div class="flex flex-row justify-between items-center">
       <p class="text-2xl text-gray-500 font-medium mb-10">Overview</p>
+      <button
+        class="bg-red-600 py-2 px-5 rounded-lg text-white font-medium"
+        style="height: fit-content"
+      >
+        + ADD NEW WINE
+      </button>
     </div>
     <div class="flex flex-wrap content-evenly">
       <card
