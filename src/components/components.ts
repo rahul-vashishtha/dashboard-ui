@@ -1,5 +1,6 @@
 import { App } from "vue";
+import Card from "./Card/Card.vue";
 
 export default function registerComponents(app: App<Element>): void {
-    // app.component('r-icon', RIcon);
+    app.component('card', Card);
 }
