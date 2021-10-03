@@ -3,9 +3,18 @@
     <header class="header">
       <img class="page-title" src="@/assets/app-logo.svg" />
       <span style="flex: 1;"></span>
-      <r-button style="width: auto;" type="primary">
-        Logout
-      </r-button>
+      <select
+        name=""
+        id=""
+        class="rounded-lg p-2 text-white"
+        style="background-color: transparent;"
+      >
+        <option value="Nicholas" default class="text-black">
+          <img src="@/assets/logo.png" class="rounded-full" alt="" />
+          Nicholas
+        </option>
+        <option value="logout">Logout</option>
+      </select>
     </header>
     <aside class="sidenav">
       <ul class="sidenav-list">
