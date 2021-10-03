@@ -42,26 +42,10 @@ body {
 }
 
 .btn-primary {
-  @apply py-2 px-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
-}
-
-.btn-primary:disabled {
-  @apply pointer-events-none py-2 px-4 bg-indigo-500 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
-}
-
-.btn-secondary {
-  @apply py-2 px-4 bg-white hover:bg-gray-100 focus:ring-gray-200 focus:ring-offset-gray-200 text-indigo-500 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
-}
-
-.btn-secondary:disabled {
-  @apply pointer-events-none py-2 px-4 bg-gray-400 text-indigo-500 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
-}
-
-.btn-danger {
   @apply py-2 px-4 bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
 }
 
-.btn-danger:disabled {
+.btn-primary:disabled {
   @apply pointer-events-none py-2 px-4 bg-red-500 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto;
 }
 
@@ -101,7 +85,7 @@ body {
 .sidenav-list-item {
   padding: 10px 20px;
   margin: 10px 0px;
-  @apply text-indigo-500 text-lg rounded-lg;
+  @apply text-red-500 text-lg rounded-lg;
   transition: 0.5s ease;
 }
 
@@ -112,12 +96,12 @@ body {
 }
 
 .item-active {
-  @apply font-semibold text-white bg-indigo-600;
+  @apply font-semibold text-white bg-red-600;
   transition: 0.5s ease;
 }
 
 .item-active:hover {
-  @apply bg-indigo-600;
+  @apply bg-red-600;
   transition: 0.5s ease;
 }
 
