@@ -2,6 +2,12 @@
 
 A sample dashboard UI project developed in VueJS 3.
 
+## Technology Stack
+
+- Typescript
+- VueJS 3
+- Node (v14.x.x LTS)
+
 ## Project setup
 
 ```
