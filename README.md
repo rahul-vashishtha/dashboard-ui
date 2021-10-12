@@ -7,6 +7,7 @@ A sample dashboard UI project developed in VueJS 3.
 - Typescript
 - VueJS 3
 - Node (v14.x.x LTS)
+- Vue CLI
 
 ## Project setup
 
