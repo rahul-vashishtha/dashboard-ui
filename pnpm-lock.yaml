@@ -22,6 +22,8 @@ specifiers:
   eslint: ^8.17.0
   eslint-plugin-vue: ^9.1.0
   jest: ^28.1.1
+  primeicons: ^5.0.0
+  primevue: ^3.13.1
   register-service-worker: ^1.7.2
   sass: ^1.52.2
   sass-loader: ^13.0.0
@@ -32,6 +34,8 @@ specifiers:
 
 dependencies:
   core-js: 3.22.8
+  primeicons: 5.0.0
+  primevue: 3.13.1_primeicons@5.0.0+vue@3.2.37
   register-service-worker: 1.7.2
   vue: 3.2.37
   vue-router: 4.0.15_vue@3.2.37
@@ -8686,6 +8690,20 @@ packages:
       extend-shallow: 2.0.1
       js-beautify: 1.14.3
     dev: true
+
+  /primeicons/5.0.0:
+    resolution: {integrity: sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==}
+    dev: false
+
+  /primevue/3.13.1_primeicons@5.0.0+vue@3.2.37:
+    resolution: {integrity: sha512-NrXSw8ifdvVlmwzI3MQlKnbvDyQXiGZSYiNax14Vh+gFOyfrZRoG11aludRfY82joxtApVdj7PCtzUiqc45o4g==}
+    peerDependencies:
+      primeicons: ^5.0.0
+      vue: ^3.0.0
+    dependencies:
+      primeicons: 5.0.0
+      vue: 3.2.37
+    dev: false
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
