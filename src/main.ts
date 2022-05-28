@@ -3,7 +3,7 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import PrimeVue from "primevue/config";
-import "primevue/resources/themes/tailwind-light";
+import "primevue/resources/themes/tailwind-light/theme.css";
 
 const app = createApp(App);
 app.use(router);
