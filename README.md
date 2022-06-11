@@ -1,4 +1,4 @@
-# dashboard-ui
+# Dashboard UI Boilerplate Template
 
 ## Project setup
 ```
