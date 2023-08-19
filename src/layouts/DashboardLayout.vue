@@ -32,7 +32,7 @@ import { useRouter } from "vue-router";
 
 type RoutePage = { title: string; route: string };
 
-let activePage = ref({
+const activePage = ref({
   title: "Dashboard",
   route: "dashboard",
 });
