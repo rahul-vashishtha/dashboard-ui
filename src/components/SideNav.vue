@@ -1,18 +1,23 @@
 <template>
-  <div class="grid-container overflow-hidden">
-    <side-nav />
-    <router-view class="main-page -mt-24" v-slot="{ Component }">
-      <transition name="scale-slide">
-        <component :is="Component"></component>
-      </transition>
-    </router-view>
-  </div>
+  <aside class="sidenav bg-gray-600">
+    <ul class="sidenav-list">
+      <li
+        v-for="(page, index) in pageList"
+        :key="index"
+        @click="changePage(page)"
+        :class="`sidenav-list-item ${
+          page.title == activePage.title ? 'item-active' : ''
+        }`"
+      >
+        <div>
+          <div>{{ page.title }}</div>
+        </div>
+      </li>
+    </ul>
+  </aside>
 </template>
 
-<style lang="scss" src="@/assets/scss/dashboard.scss"></style>
-
 <script lang="ts" setup>
-import SideNav from "@/components/SideNav.vue";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 
